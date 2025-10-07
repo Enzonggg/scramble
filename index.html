@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Word Scramble</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<form class="word-scrambled">
+		<header class="title-container">
+			<h1 class="title">Word Scrambled</h1>
+		</header>
+		<main class="content">
+			<div class="word"></div>
+			<div class="check">
+				Check: <span class="check-value">-</span>
+			</div>
+			<div class="time">
+				Time left: <span class="time-left"></span>s
+			</div>
+			<div class="result"></div>
+			<input
+				class="user-input"
+				type="text"
+				placeholder="Enter a word"
+			/>
+		</main>
+		<div class="actions">
+			<button type="button" class="retry">Retry</button>
+			<button type="submit" class="submit">Check</button>
+		</div>
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
