@@ -24,7 +24,7 @@ const words = [
 let currentWordData = getRandomWord();
 let wordToGuess = currentWordData.word;
 let shuffledWord = shuffle();
-const TIME = 25;
+const TIME = 30;
 let timer;
 let interval;
 let score = 0;
