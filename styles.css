@@ -6,12 +6,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: radial-gradient(
-		circle at center,
-		#9cf6ff,
-		#6be3f8,
-		#1aa7e0,
-		#0865ac
+	background: url("background.jpg") no-repeat center center fixed;
+	background-size: cover;
 	);
 }
 .word-scrambled {
